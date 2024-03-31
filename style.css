@@ -1,0 +1,9 @@
+.newCard:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.4s;
+    border-radius: 10%;
+}
+.newCard{
+    opacity: 0.8;
+}
