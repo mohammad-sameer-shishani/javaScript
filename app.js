@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-let submitButton=document.getElementById("submit");
 let form=document.getElementById("mainForm");
 
 
