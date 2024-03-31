@@ -35,12 +35,12 @@
         <form class="col-10" id="mainForm">
             <div class="input-group mb-2">
                 <span class="input-group-text">First and last name</span>
-                <input type="text" aria-label="First name" class="form-control" id="firstName" >
+                <input type="text" aria-label="First name" class="form-control" id="firstName" required >
                 <input type="text" aria-label="Last name" class="form-control"id="lastName" >
             </div>
             <div class="input-group mb-2 ">
                 <label class="input-group-text" for="gender">Gender</label>
-                <select class="form-select" id="gender" >
+                <select class="form-select" id="gender" required>
                     <option selected>Choose...</option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
@@ -50,25 +50,25 @@
               
             <div class="input-group mb-2">
                 <span class="input-group-text">Birth Date</span>
-                <input type="date" aria-label="date" class="form-control"  id="date">
+                <input type="date" aria-label="date" class="form-control"  id="date" required>
             </div>
 
             <div class="input-group mb-2">
                 <span class="input-group-text">Phone number</span>
-                <input type="number" aria-label="phone" class="form-control" placeholder="07########"  id="phone">
+                <input type="number" aria-label="phone" class="form-control" placeholder="07########"  id="phone" required>
             </div>
             <div class="input-group mb-2">
                 <span class="input-group-text">Email</span>
 
                 <input type="text" class="form-control" placeholder="exaple@domain.com" aria-label="Recipient's username"
-                    aria-describedby="basic-addon2"  id="email">
+                    aria-describedby="basic-addon2"  id="email" required>
                
             </div>
 
            
             <div class="input-group mb-2 row ms-0">
-                <label class="input-group-text col-2 " for="inputGroupSelect01">Address</label>
-                <textarea name="address" class="col-10 border" rows="2" id="address"></textarea>
+                <label class="input-group-text col-md-2 col-3" for="inputGroupSelect01">Address</label>
+                <textarea name="address" class="col-10 border" rows="2" id="address" required></textarea>
             </div>
 
             <div class="row justify-content-center">

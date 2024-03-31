@@ -55,7 +55,7 @@ function displayUserData(){
       </li>
     </ul>
     <div class="card-body">
-      <a href="" class="card-text" id=""><b>${email}@example.com</b></a>
+      <a href="" class="card-text" id=""><b>${email}</b></a>
     </div>
     `;
     userCard.appendChild(card);
